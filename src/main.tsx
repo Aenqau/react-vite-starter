@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.scss'
-import App from './App'
+import Main from './pages/main'
 
 ReactDOM.createRoot(document.getElementById('root') as Element).render(
   <React.StrictMode>
-    <App />
+    <Main />
   </React.StrictMode>
 )
