@@ -11,7 +11,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>Hello Vite + React + Typescript + Sass!</p>
         <p>
-          <button type="button" id="counter" className="btn btn-light" onClick={() => setCount((count) => count + 1)}>
+          <button
+            type="button"
+            id="counter"
+            onClick={() => setCount((val) => val + 1)}
+          >
             count is: {count}
           </button>
         </p>
